@@ -1,0 +1,27 @@
+{
+  "name": "climb-email-templates",
+  "version": "1.0.0",
+  "description": "A system to generate all the emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Climb-social/email-templates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Climb-social/email-templates/issues"
+  },
+  "homepage": "https://github.com/Climb-social/email-templates#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "email-templates": "^2.2.0",
+    "fs-extra": "^0.26.7",
+    "jade": "^1.11.0",
+    "node-sass": "^3.4.2",
+    "slug": "^0.9.1"
+  }
+}
