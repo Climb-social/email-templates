@@ -1,0 +1,15 @@
+language: node_js
+sudo: false
+node_js:
+  - 4
+notifications:
+  email: false
+cache:
+  directories:
+  - node_modules
+branches:
+  only:
+  - master
+before_script:
+- npm prune
+script: npm run build
